@@ -2,7 +2,6 @@ language: ruby
 rvm:
   - "1.9.2"
   - "1.9.3"
-script: bundle exec rspec spec
 services: mysql
 before_script:
   - mysql -e 'create database rspec_thinking_sphinx_matchers;'

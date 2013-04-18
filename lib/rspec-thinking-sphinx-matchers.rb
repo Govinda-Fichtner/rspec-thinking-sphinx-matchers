@@ -1,0 +1,6 @@
+require "rspec-thinking-sphinx-matchers/version"
+require "active_support/concern"
+require_relative "rspec-thinking-sphinx-matchers/thinking_sphinx_example_group"
+require_relative "rspec-thinking-sphinx-matchers/index_matcher"
+require_relative "rspec-thinking-sphinx-matchers/field_matcher"
+require_relative "rspec-thinking-sphinx-matchers/attribute_matcher"

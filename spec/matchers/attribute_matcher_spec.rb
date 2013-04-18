@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe RspecThinkingSphinxMatchers::AttributeField do
+describe RspecThinkingSphinxMatchers::HaveAttribute do
   let(:index) { ThinkingSphinx::Configuration.instance.indices_for_references(:user).first }
   
   it_should_behave_like "a rspec matcher", RspecThinkingSphinxMatchers::HaveAttribute.new(:some_attribute)

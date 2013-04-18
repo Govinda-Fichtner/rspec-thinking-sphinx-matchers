@@ -2,6 +2,7 @@ language: ruby
 rvm:
   - "1.9.2"
   - "1.9.3"
-services: mysql
+env:
+  - DB=mysql
 before_script:
-  - mysql -e 'create database rspec_thinking_sphinx_matchers;'
+  - "mysql -e 'create database rspec_thinking_sphinx_matchers;' > /dev/null"

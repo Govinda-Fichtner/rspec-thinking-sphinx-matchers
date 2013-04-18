@@ -1,5 +1,5 @@
 # Rspec Thinking Sphinx matchers
-[![status](https://secure.travis-ci.org/fuzzyalej/thinking-sphinx-rspec-matchers.png)](http://travis-ci.org/fuzzyalej/thinking-sphinx-rspec-matchers)
+[![Build Status](https://travis-ci.org/Govinda-Fichtner/rspec-thinking-sphinx-matchers.png?branch=master)](https://travis-ci.org/Govinda-Fichtner/rspec-thinking-sphinx-matchers)
 
 Test your Thinking Sphinx 3 index defintions with the custom rspec matchers of this gem.
 

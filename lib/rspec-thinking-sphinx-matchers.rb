@@ -1,3 +1,4 @@
+require "rspec"
 require "rspec-thinking-sphinx-matchers/version"
 require "active_support/concern"
 require_relative "rspec-thinking-sphinx-matchers/thinking_sphinx_example_group"
